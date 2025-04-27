@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-page {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: lightcoral;
+  padding-top: 100px;
+}
+.Christmas {
+  background-color: white;
+  width: 1440px;
+  margin: auto;
+  height: 348px;
+  display: flex;
+}
+.ChristmasTwo {
+  background-color: #f7f6f5;
+  display: flex;
+}
+.SaleTittle {
+  font-family: Noto Sans Georgian;
+  font-size: 28px;
+  font-weight: 700;
+  color: #3a3845;
+}
+.ChristmasTwo {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.Image {
+  height: 348px;
+  width: 555px;
+}
+.Description {
+  font-family: Noto Sans Georgian;
+  font-weight: 400;
+  font-size: 16px;
+}
+.Button {
+  color: #3a3845;
+}
