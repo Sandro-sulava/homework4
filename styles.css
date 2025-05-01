@@ -3,45 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
-.main-page {
-  display: flex;
-  justify-content: space-between;
-}
-body {
-  background-color: lightcoral;
-  padding-top: 100px;
-}
-.Christmas {
-  background-color: white;
-  width: 1440px;
-  margin: auto;
-  height: 348px;
-  display: flex;
-}
-.ChristmasTwo {
-  background-color: #f7f6f5;
-  display: flex;
-}
-.SaleTittle {
-  font-family: Noto Sans Georgian;
-  font-size: 28px;
-  font-weight: 700;
-  color: #3a3845;
-}
-.ChristmasTwo {
-  width: 100%;
-  justify-content: flex-end;
+
+:root {
+  --main-bg-color: #ffffff;
+  --bg-color: #f7f6f5;
 }
 
-.Image {
+body {
+  background-color: var(--bg-color);
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.main-container {
+  max-width: 1440px;
+  width: 100%;
+  background-color: var(--main-bg-color);
+  margin: 0 auto;
+  padding: 0px 165px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.image-container {
+  width: 50%;
   height: 348px;
-  width: 555px;
+  object-fit: cover;
 }
-.Description {
-  font-family: Noto Sans Georgian;
-  font-weight: 400;
-  font-size: 16px;
+
+.text-container {
+  font-family: ;
+  width: 50%;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.Button {
-  color: #3a3845;
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 398px;
+  background-color: var(--bg-color);
+}
+.text-wrapper p {
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
